@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E0E87DE2BF3A05100BE68D8 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E87DD2BF3A05100BE68D8 /* FavoritesView.swift */; };
+		4E15E0852B895DC60066047F /* MeditationDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E15E0842B895DC60066047F /* MeditationDescriptionView.swift */; };
+		4E1CC5EF2BF4BAB5006039F6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1CC5EE2BF4BAB5006039F6 /* ProfileView.swift */; };
+		4E1CC5F12BF4C0E3006039F6 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1CC5F02BF4C0E3006039F6 /* ProfileViewModel.swift */; };
+		4E4241FC2B8B441D00379AB7 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4241FB2B8B441D00379AB7 /* PlayerViewModel.swift */; };
+		4E87B1452BF24F0100C25EDB /* BreatheModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87B1442BF24F0100C25EDB /* BreatheModel.swift */; };
+		4E87B1472BF24FE800C25EDB /* BreathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E87B1462BF24FE800C25EDB /* BreathView.swift */; };
+		4E8B4C1B2B8797D400F4D634 /* ZenZoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8B4C1A2B8797D400F4D634 /* ZenZoneApp.swift */; };
+		4E8B4C1D2B8797D400F4D634 /* ZenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8B4C1C2B8797D400F4D634 /* ZenView.swift */; };
+		4E8B4C1F2B8797D400F4D634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8B4C1E2B8797D400F4D634 /* Assets.xcassets */; };
+		4E8B4C222B8797D400F4D634 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8B4C212B8797D400F4D634 /* Preview Assets.xcassets */; };
+		4E8B4C2C2B8797D500F4D634 /* ZenZoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8B4C2B2B8797D500F4D634 /* ZenZoneTests.swift */; };
+		4E8B4C362B8797D500F4D634 /* ZenZoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8B4C352B8797D500F4D634 /* ZenZoneUITests.swift */; };
+		4E8B4C382B8797D500F4D634 /* ZenZoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8B4C372B8797D500F4D634 /* ZenZoneUITestsLaunchTests.swift */; };
+		4E9976E92B8FFCED00F7DF02 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9976E82B8FFCED00F7DF02 /* AudioManager.swift */; };
+		4E9976F82B90048E00F7DF02 /* tropical_breeze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E9976F52B90048E00F7DF02 /* tropical_breeze.mp3 */; };
+		4E9976F92B90048E00F7DF02 /* thunderous_calm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E9976F62B90048E00F7DF02 /* thunderous_calm.mp3 */; };
+		4E9976FA2B90048E00F7DF02 /* starry_night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E9976F72B90048E00F7DF02 /* starry_night.mp3 */; };
+		4E9976FD2B90051500F7DF02 /* fire_serenity.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E9976FB2B90051500F7DF02 /* fire_serenity.mp3 */; };
+		4E9976FE2B90051500F7DF02 /* rainy_forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4E9976FC2B90051500F7DF02 /* rainy_forest.mp3 */; };
+		4E9B57112B8AA6080050255D /* MeditationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B57102B8AA6080050255D /* MeditationModel.swift */; };
+		4E9B57132B8AADEC0050255D /* MeditationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9B57122B8AADEC0050255D /* MeditationViewModel.swift */; };
+		4EA8763D2B8A790E00127196 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA8763C2B8A790E00127196 /* PlayerView.swift */; };
+		4EA8763F2B8A82BB00127196 /* PlayerControllerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA8763E2B8A82BB00127196 /* PlayerControllerButton.swift */; };
+		4EC0DE492BF4D6FA005D0343 /* NotificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC0DE482BF4D6FA005D0343 /* NotificationViewModel.swift */; };
+		4EEDA5AE2BF6D2D100DC3301 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EEDA5AD2BF6D2D100DC3301 /* MotionManager.swift */; };
+		4EEDA5B12BF7794800DC3301 /* imgs in Resources */ = {isa = PBXBuildFile; fileRef = 4EEDA5B02BF7794800DC3301 /* imgs */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E8B4C282B8797D500F4D634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8B4C0F2B8797D400F4D634 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8B4C162B8797D400F4D634;
+			remoteInfo = ZenZone;
+		};
+		4E8B4C322B8797D500F4D634 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8B4C0F2B8797D400F4D634 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8B4C162B8797D400F4D634;
+			remoteInfo = ZenZone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E0E87DD2BF3A05100BE68D8 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		4E15E0842B895DC60066047F /* MeditationDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationDescriptionView.swift; sourceTree = "<group>"; };
+		4E1CC5EE2BF4BAB5006039F6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4E1CC5F02BF4C0E3006039F6 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		4E4241FB2B8B441D00379AB7 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		4E87B1442BF24F0100C25EDB /* BreatheModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheModel.swift; sourceTree = "<group>"; };
+		4E87B1462BF24FE800C25EDB /* BreathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathView.swift; sourceTree = "<group>"; };
+		4E8B4C172B8797D400F4D634 /* ZenZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8B4C1A2B8797D400F4D634 /* ZenZoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenZoneApp.swift; sourceTree = "<group>"; };
+		4E8B4C1C2B8797D400F4D634 /* ZenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenView.swift; sourceTree = "<group>"; };
+		4E8B4C1E2B8797D400F4D634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E8B4C212B8797D400F4D634 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E8B4C272B8797D500F4D634 /* ZenZoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenZoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8B4C2B2B8797D500F4D634 /* ZenZoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenZoneTests.swift; sourceTree = "<group>"; };
+		4E8B4C312B8797D500F4D634 /* ZenZoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenZoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8B4C352B8797D500F4D634 /* ZenZoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenZoneUITests.swift; sourceTree = "<group>"; };
+		4E8B4C372B8797D500F4D634 /* ZenZoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenZoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4E9976E82B8FFCED00F7DF02 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		4E9976F52B90048E00F7DF02 /* tropical_breeze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tropical_breeze.mp3; sourceTree = "<group>"; };
+		4E9976F62B90048E00F7DF02 /* thunderous_calm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunderous_calm.mp3; sourceTree = "<group>"; };
+		4E9976F72B90048E00F7DF02 /* starry_night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = starry_night.mp3; sourceTree = "<group>"; };
+		4E9976FB2B90051500F7DF02 /* fire_serenity.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fire_serenity.mp3; sourceTree = "<group>"; };
+		4E9976FC2B90051500F7DF02 /* rainy_forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rainy_forest.mp3; sourceTree = "<group>"; };
+		4E9B57102B8AA6080050255D /* MeditationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationModel.swift; sourceTree = "<group>"; };
+		4E9B57122B8AADEC0050255D /* MeditationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationViewModel.swift; sourceTree = "<group>"; };
+		4EA8763C2B8A790E00127196 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		4EA8763E2B8A82BB00127196 /* PlayerControllerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControllerButton.swift; sourceTree = "<group>"; };
+		4EC0DE482BF4D6FA005D0343 /* NotificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewModel.swift; sourceTree = "<group>"; };
+		4EEDA5AD2BF6D2D100DC3301 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		4EEDA5B02BF7794800DC3301 /* imgs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = imgs; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E8B4C142B8797D400F4D634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8B4C242B8797D500F4D634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8B4C2E2B8797D500F4D634 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E1CC5E92BF4B7DF006039F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E9B57102B8AA6080050255D /* MeditationModel.swift */,
+				4E87B1442BF24F0100C25EDB /* BreatheModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E1CC5EA2BF4B7E7006039F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E8B4C1C2B8797D400F4D634 /* ZenView.swift */,
+				4EA8763E2B8A82BB00127196 /* PlayerControllerButton.swift */,
+				4E1CC5EE2BF4BAB5006039F6 /* ProfileView.swift */,
+				4E15E0842B895DC60066047F /* MeditationDescriptionView.swift */,
+				4E87B1462BF24FE800C25EDB /* BreathView.swift */,
+				4E0E87DD2BF3A05100BE68D8 /* FavoritesView.swift */,
+				4EA8763C2B8A790E00127196 /* PlayerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E1CC5EB2BF4B7FB006039F6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4E9B57122B8AADEC0050255D /* MeditationViewModel.swift */,
+				4E4241FB2B8B441D00379AB7 /* PlayerViewModel.swift */,
+				4E1CC5F02BF4C0E3006039F6 /* ProfileViewModel.swift */,
+				4EC0DE482BF4D6FA005D0343 /* NotificationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4E8B4C0E2B8797D400F4D634 = {
+			isa = PBXGroup;
+			children = (
+				4EEDA5B02BF7794800DC3301 /* imgs */,
+				4E8B4C192B8797D400F4D634 /* ZenZone */,
+				4E8B4C2A2B8797D500F4D634 /* ZenZoneTests */,
+				4E8B4C342B8797D500F4D634 /* ZenZoneUITests */,
+				4E8B4C182B8797D400F4D634 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E8B4C182B8797D400F4D634 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E8B4C172B8797D400F4D634 /* ZenZone.app */,
+				4E8B4C272B8797D500F4D634 /* ZenZoneTests.xctest */,
+				4E8B4C312B8797D500F4D634 /* ZenZoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E8B4C192B8797D400F4D634 /* ZenZone */ = {
+			isa = PBXGroup;
+			children = (
+				4E1CC5E92BF4B7DF006039F6 /* Model */,
+				4E1CC5EA2BF4B7E7006039F6 /* View */,
+				4E1CC5EB2BF4B7FB006039F6 /* ViewModel */,
+				4EEDA5AF2BF7661600DC3301 /* Managers */,
+				4E9976EA2B9000F300F7DF02 /* mp3 */,
+				4E8B4C1A2B8797D400F4D634 /* ZenZoneApp.swift */,
+				4E8B4C1E2B8797D400F4D634 /* Assets.xcassets */,
+				4E8B4C202B8797D400F4D634 /* Preview Content */,
+			);
+			path = ZenZone;
+			sourceTree = "<group>";
+		};
+		4E8B4C202B8797D400F4D634 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4E8B4C212B8797D400F4D634 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4E8B4C2A2B8797D500F4D634 /* ZenZoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E8B4C2B2B8797D500F4D634 /* ZenZoneTests.swift */,
+			);
+			path = ZenZoneTests;
+			sourceTree = "<group>";
+		};
+		4E8B4C342B8797D500F4D634 /* ZenZoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E8B4C352B8797D500F4D634 /* ZenZoneUITests.swift */,
+				4E8B4C372B8797D500F4D634 /* ZenZoneUITestsLaunchTests.swift */,
+			);
+			path = ZenZoneUITests;
+			sourceTree = "<group>";
+		};
+		4E9976EA2B9000F300F7DF02 /* mp3 */ = {
+			isa = PBXGroup;
+			children = (
+				4E9976F72B90048E00F7DF02 /* starry_night.mp3 */,
+				4E9976F62B90048E00F7DF02 /* thunderous_calm.mp3 */,
+				4E9976F52B90048E00F7DF02 /* tropical_breeze.mp3 */,
+				4E9976FB2B90051500F7DF02 /* fire_serenity.mp3 */,
+				4E9976FC2B90051500F7DF02 /* rainy_forest.mp3 */,
+			);
+			path = mp3;
+			sourceTree = "<group>";
+		};
+		4EEDA5AF2BF7661600DC3301 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4E9976E82B8FFCED00F7DF02 /* AudioManager.swift */,
+				4EEDA5AD2BF6D2D100DC3301 /* MotionManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E8B4C162B8797D400F4D634 /* ZenZone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8B4C3B2B8797D500F4D634 /* Build configuration list for PBXNativeTarget "ZenZone" */;
+			buildPhases = (
+				4E8B4C132B8797D400F4D634 /* Sources */,
+				4E8B4C142B8797D400F4D634 /* Frameworks */,
+				4E8B4C152B8797D400F4D634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZenZone;
+			productName = ZenZone;
+			productReference = 4E8B4C172B8797D400F4D634 /* ZenZone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E8B4C262B8797D500F4D634 /* ZenZoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8B4C3E2B8797D500F4D634 /* Build configuration list for PBXNativeTarget "ZenZoneTests" */;
+			buildPhases = (
+				4E8B4C232B8797D500F4D634 /* Sources */,
+				4E8B4C242B8797D500F4D634 /* Frameworks */,
+				4E8B4C252B8797D500F4D634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E8B4C292B8797D500F4D634 /* PBXTargetDependency */,
+			);
+			name = ZenZoneTests;
+			productName = ZenZoneTests;
+			productReference = 4E8B4C272B8797D500F4D634 /* ZenZoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E8B4C302B8797D500F4D634 /* ZenZoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8B4C412B8797D500F4D634 /* Build configuration list for PBXNativeTarget "ZenZoneUITests" */;
+			buildPhases = (
+				4E8B4C2D2B8797D500F4D634 /* Sources */,
+				4E8B4C2E2B8797D500F4D634 /* Frameworks */,
+				4E8B4C2F2B8797D500F4D634 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E8B4C332B8797D500F4D634 /* PBXTargetDependency */,
+			);
+			name = ZenZoneUITests;
+			productName = ZenZoneUITests;
+			productReference = 4E8B4C312B8797D500F4D634 /* ZenZoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E8B4C0F2B8797D400F4D634 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					4E8B4C162B8797D400F4D634 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					4E8B4C262B8797D500F4D634 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4E8B4C162B8797D400F4D634;
+					};
+					4E8B4C302B8797D500F4D634 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 4E8B4C162B8797D400F4D634;
+					};
+				};
+			};
+			buildConfigurationList = 4E8B4C122B8797D400F4D634 /* Build configuration list for PBXProject "ZenZone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E8B4C0E2B8797D400F4D634;
+			productRefGroup = 4E8B4C182B8797D400F4D634 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E8B4C162B8797D400F4D634 /* ZenZone */,
+				4E8B4C262B8797D500F4D634 /* ZenZoneTests */,
+				4E8B4C302B8797D500F4D634 /* ZenZoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E8B4C152B8797D400F4D634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8B4C222B8797D400F4D634 /* Preview Assets.xcassets in Resources */,
+				4E9976F82B90048E00F7DF02 /* tropical_breeze.mp3 in Resources */,
+				4E9976F92B90048E00F7DF02 /* thunderous_calm.mp3 in Resources */,
+				4E8B4C1F2B8797D400F4D634 /* Assets.xcassets in Resources */,
+				4EEDA5B12BF7794800DC3301 /* imgs in Resources */,
+				4E9976FA2B90048E00F7DF02 /* starry_night.mp3 in Resources */,
+				4E9976FE2B90051500F7DF02 /* rainy_forest.mp3 in Resources */,
+				4E9976FD2B90051500F7DF02 /* fire_serenity.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8B4C252B8797D500F4D634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8B4C2F2B8797D500F4D634 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E8B4C132B8797D400F4D634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E87B1472BF24FE800C25EDB /* BreathView.swift in Sources */,
+				4E1CC5EF2BF4BAB5006039F6 /* ProfileView.swift in Sources */,
+				4EA8763F2B8A82BB00127196 /* PlayerControllerButton.swift in Sources */,
+				4E87B1452BF24F0100C25EDB /* BreatheModel.swift in Sources */,
+				4E4241FC2B8B441D00379AB7 /* PlayerViewModel.swift in Sources */,
+				4E8B4C1D2B8797D400F4D634 /* ZenView.swift in Sources */,
+				4E1CC5F12BF4C0E3006039F6 /* ProfileViewModel.swift in Sources */,
+				4E15E0852B895DC60066047F /* MeditationDescriptionView.swift in Sources */,
+				4E9B57132B8AADEC0050255D /* MeditationViewModel.swift in Sources */,
+				4E9B57112B8AA6080050255D /* MeditationModel.swift in Sources */,
+				4E0E87DE2BF3A05100BE68D8 /* FavoritesView.swift in Sources */,
+				4EC0DE492BF4D6FA005D0343 /* NotificationViewModel.swift in Sources */,
+				4E9976E92B8FFCED00F7DF02 /* AudioManager.swift in Sources */,
+				4E8B4C1B2B8797D400F4D634 /* ZenZoneApp.swift in Sources */,
+				4EA8763D2B8A790E00127196 /* PlayerView.swift in Sources */,
+				4EEDA5AE2BF6D2D100DC3301 /* MotionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8B4C232B8797D500F4D634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8B4C2C2B8797D500F4D634 /* ZenZoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8B4C2D2B8797D500F4D634 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8B4C382B8797D500F4D634 /* ZenZoneUITestsLaunchTests.swift in Sources */,
+				4E8B4C362B8797D500F4D634 /* ZenZoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E8B4C292B8797D500F4D634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E8B4C162B8797D400F4D634 /* ZenZone */;
+			targetProxy = 4E8B4C282B8797D500F4D634 /* PBXContainerItemProxy */;
+		};
+		4E8B4C332B8797D500F4D634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E8B4C162B8797D400F4D634 /* ZenZone */;
+			targetProxy = 4E8B4C322B8797D500F4D634 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4E8B4C392B8797D500F4D634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E8B4C3A2B8797D500F4D634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E8B4C3C2B8797D500F4D634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZenZone/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SCM3WL48Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZenZone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.fel.cvut.goat.ZenZone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E8B4C3D2B8797D500F4D634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZenZone/Preview Content\"";
+				DEVELOPMENT_TEAM = 5SCM3WL48Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ZenZone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.fel.cvut.goat.ZenZone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4E8B4C3F2B8797D500F4D634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SCM3WL48Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.fel.cvut.goat.ZenZoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZenZone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZenZone";
+			};
+			name = Debug;
+		};
+		4E8B4C402B8797D500F4D634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SCM3WL48Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.fel.cvut.goat.ZenZoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZenZone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZenZone";
+			};
+			name = Release;
+		};
+		4E8B4C422B8797D500F4D634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SCM3WL48Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.fel.cvut.goat.ZenZoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZenZone;
+			};
+			name = Debug;
+		};
+		4E8B4C432B8797D500F4D634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5SCM3WL48Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.fel.cvut.goat.ZenZoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZenZone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E8B4C122B8797D400F4D634 /* Build configuration list for PBXProject "ZenZone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8B4C392B8797D500F4D634 /* Debug */,
+				4E8B4C3A2B8797D500F4D634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8B4C3B2B8797D500F4D634 /* Build configuration list for PBXNativeTarget "ZenZone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8B4C3C2B8797D500F4D634 /* Debug */,
+				4E8B4C3D2B8797D500F4D634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8B4C3E2B8797D500F4D634 /* Build configuration list for PBXNativeTarget "ZenZoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8B4C3F2B8797D500F4D634 /* Debug */,
+				4E8B4C402B8797D500F4D634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8B4C412B8797D500F4D634 /* Build configuration list for PBXNativeTarget "ZenZoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8B4C422B8797D500F4D634 /* Debug */,
+				4E8B4C432B8797D500F4D634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E8B4C0F2B8797D400F4D634 /* Project object */;
+}
