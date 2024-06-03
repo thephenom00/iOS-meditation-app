@@ -15,6 +15,11 @@ Jako svoji semestrální práci jsem zvolil je meditační aplikaci s názvem **
 
 ## Ukázka aplikace
 
+<div align="center">
+  <video src="https://github.com/thephenom00/iOS-meditation-app/assets/133682647/7d9968c5-3120-4fd4-841b-d328f9e15c91">
+  </video>
+</div>
+
 ### Domovská stránka
 Na domovská stránce se může uživatel rozhodnout buď pro dechová cvičení nebo pro poslech meditační hudby.
 <div align="center">
@@ -67,33 +72,5 @@ Uživatel má možnost si změnit profilový obrázek, jméno, či nastavit kdy 
     <img src="imgs/set_reminder.png" width="220"/>
     <img src="imgs/notification.png" width="220"/>
 </div> 
-
-## **Testování**
-
-**Názor uživatele I:**
-
-+ **Klady:**
-    - Uživatelské rozhraní je velmi přehledné.
-    - Funkce dechových cvičení je dobře provedená.
-
-- **Zápory:**
-    - Při kliknutí na tlačítko pro spuštění meditační hudby trvá dlouho, než se skladba spustí.
-
-**Názor uživatele II:**
-
-+ **Klady:**
-    - Uživatelské rozhraní
-    - Uživatelský profil s možností změny profilového obrázku a jména.
-    - Možnost nastavit denní připomenutí pro meditaci.
-
-- **Zápory:**
-    - U některých skladeb kvalita zvuku není optimální.
-    - Ocenil by searchbar pro hledání skladeb
-
-
-<!-- 
-<img src="imgs/profile.png" alt="Profile Image" width="170"/>
-<img src="imgs/profile.png" alt="Profile Image" width="170"/>
-<img src="imgs/profile.png" alt="Profile Image" width="171"/> -->
 
 
