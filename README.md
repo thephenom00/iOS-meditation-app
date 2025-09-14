@@ -1,76 +1,87 @@
-# ZenZone Meditační Aplikace
+# ZenZone - Meditation App
 
-## Přehled aplikace
+## 🧘‍♂️ Overview
 
-Jako svoji semestrální práci jsem zvolil je meditační aplikaci s názvem **ZenZone**, která uživatelům umožňuje poslouchat meditační skladby, využít možnosti dechových cvičení, nastavit si denní připomenutí pro meditaci a sledovat jejich oblíbené meditace.
+**ZenZone** offers users to listen to meditation tracks, practice guided breathing exercises, set daily meditation reminders, and track their favorite meditations.
 
-## Použité technologie
+## 🛠️ Tech Stack
 
-- **SwiftUI**: Pro vytvoření uživatelského rozhraní aplikace.
-- **Core Motion**: Pro sledování pohybu zařízení pomocí akcelerometru.
-- **AVKit**: Pro přehrávání zvukových souborů.
-- **UserDefaults**: Pro trvalé uložení uživatelských dat, jako jsou oblíbené meditace a profilové informace.
-- **PhotosUI**: Pro integraci s výběrem fotek pro nastavení profilového obrázku.
+- **SwiftUI** – for building the app’s user interface  
+- **Core Motion** – for tracking device movement via the accelerometer  
+- **AVKit** – for playing audio files  
+- **UserDefaults** – for storing user data, such as favorite meditations and profile information  
+- **PhotosUI** – for selecting a profile picture  
 
 
-## Ukázka aplikace
+## 🖥️ App Preview
 
 <div align="center">
   <video src="https://github.com/thephenom00/iOS-meditation-app/assets/133682647/7d9968c5-3120-4fd4-841b-d328f9e15c91">
   </video>
 </div>
 
-### Domovská stránka
-Na domovská stránce se může uživatel rozhodnout buď pro dechová cvičení nebo pro poslech meditační hudby.
+### Home Screen
+Users can choose between guided breathing exercises or listening to meditation tracks.  
 <div align="center">
     <img src="imgs/main.png" width="220"/>
-</div> 
+</div>  
 
-### Dechová cvičení
-Uživatel si následně bude moci vybrat z nabízených barev a poté bude následovat vizuální animace, která jej provede dechovým cvičením.
+---
+
+### Breathing Exercises
+Users select a color theme, then follow a visual animation to guide their breathing practice.  
 <div align="center">
     <img src="imgs/breathe_select.png" width="220"/>
     <img src="imgs/breathe.png" width="220"/>
-</div> 
+</div>  
 
-### Spuštění meditační hudby
-Kliknutím na skladbu, která uživateoe zajímá, si uživatel zobrazí podrobnější informace. a pro spuštění klikne na tlačítko "Play". Během přehrávání ovládat různé funkce, jako je přetáčení, pauzování nebo opakování skladby.
+---
 
+### Play a Meditation Track
+Selecting a track opens detailed information. Click **Play** to start the track, with controls for pause, skip, or repeat.  
 <div align="center">
     <img src="imgs/song_select.png" width="170"/>
     <img src="imgs/song_describtion.png" width="170"/>
     <img src="imgs/player.png" width="170"/>
-</div> 
+</div>  
 
-### Akcelerometr
-V případě, že bude v průběhu poslechu hudby pohnuto se zařízením, bude zobrazeno upozornění.
+---
+
+### Motion Detection
+If the device is moved while a track is playing, a notification alert is shown.  
 <div align="center">
     <img src="imgs/popup.png" width="220"/>
-</div> 
+</div>  
 
-### Oblíbené meditace
-Stránka zobrazující všechny uživatelovy oblíbené skladby. Skladbu může přidat kliknutím na srdíčko přímo vedle skladby v domovské obrazovce.
+---
+
+### Favorite Meditations
+Displays all tracks the user has marked as favorites. Add a track by tapping the heart icon.  
 <div align="center">
     <img src="imgs/likes.png" width="220"/>
-</div> 
+</div>  
 
-### Uživatelský profil
-Uživatel má možnost si změnit profilový obrázek, jméno, či nastavit kdy má být notifikován o meditaci.
+---
+
+### User Profile
+Users can change their profile picture, username, and set daily meditation reminders.  
 <div align="center">
     <img src="imgs/profile.png" width="220"/>
-</div> 
+</div>  
 
-### Změna profilového obrázku a jména
+---
+
+### Change Profile Picture & Username
 <div align="center">
     <img src="imgs/change_image.png" width="170"/>
     <img src="imgs/change_username.png" width="170"/>
     <img src="imgs/profile_changed.png" width="170"/>
-</div> 
+</div>  
 
-### Nastavení notifikace
+---
+
+### Set Meditation Reminder
 <div align="center">
     <img src="imgs/set_reminder.png" width="220"/>
     <img src="imgs/notification.png" width="220"/>
-</div> 
-
-
+</div>  
